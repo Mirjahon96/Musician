@@ -1,0 +1,162 @@
+@media (max-width: 768px) {
+  /* Navbar */
+  #navbar {
+    display: block;
+  }
+  #navbar ul {
+    display: none;
+  }
+
+  .sidebar-icon {
+    display: block;
+  }
+
+  /* Showcase */
+  #showcase {
+    height: 80vh;
+  }
+
+  /* Discography */
+  #discography {
+    padding: 1rem 0;
+  }
+  #discography h2 {
+    margin-bottom: 1rem;
+  }
+
+  #discography .heading-title {
+    margin-bottom: 4rem;
+  }
+
+  #discography .discog-content {
+    grid-template-columns: 1fr;
+  }
+  #discography .discog-title {
+    padding: 0;
+  }
+  #discography .discog-box:nth-child(6) .play {
+  }
+  .discog-bg img {
+    margin: 0;
+  }
+
+  /* Concert Tours */
+  #concert-tours .heading-title {
+    margin: 1rem 0 0 0;
+  }
+
+  #concert-tours .concert-h {
+    font-size: 2.4rem;
+  }
+  #concert {
+    padding: 0;
+    height: 60vh;
+  }
+  #concert .concert-content {
+    grid-template-columns: 1fr;
+    margin-top: 1rem;
+    padding: 0;
+  }
+  #concert .concert-content .consert-box {
+    padding: 0;
+  }
+  .bold-heading {
+    margin-bottom: 2rem;
+  }
+
+  /* Latter Composition */
+  #lat-composition .heading-title {
+    margin-bottom: 4rem;
+  }
+
+  #lat-composition .lat-comp-content {
+    grid-template-columns: 1fr;
+  }
+  #lat-composition .lat-comp-content .lat-comp-title {
+    padding: 1rem;
+  }
+  #lat-composition .icons .fa {
+    margin-left: 7px;
+    font-size: 12px;
+  }
+
+  /* Testimonials */
+  #testimonials {
+    padding-top: 3rem;
+  }
+
+  /* New Tracks */
+  #new-tracks .tracks-content {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem 0;
+    margin: 1rem 0;
+  }
+
+  /* Upcoming Events */
+  #upcoming-events .upcoming-content {
+    grid-template-columns: 1fr;
+  }
+  #upcoming-events .upcoming-content .box {
+    padding: 0;
+  }
+
+  /* History */
+  #history {
+    min-height: 600px;
+  }
+  #history ul {
+    display: none;
+  }
+  #history .content {
+    display: block;
+    width: 100%;
+    padding-top: 3rem;
+  }
+
+  /* Contact */
+  #contact .contact-content {
+    grid-template-columns: 1fr;
+    padding-top: 3rem;
+  }
+
+  #contact .contact-content .box,
+  #contact .social {
+    padding: 0;
+  }
+  #contact .social .collection {
+    margin: 2rem 0 0 0;
+  }
+
+  #contact .social .collection ul {
+    display: flex;
+  }
+
+  /* Utility Classes */
+  .l-heading {
+    font-size: 2.4rem;
+  }
+
+  .line-through,
+  #lat-composition .lat-comp-content .lat-comp-title .triangle-right,
+  #lat-composition br,
+  #concert-tours br,
+  #discography br,
+  #history br,
+  #testimonials .prev,
+  #testimonials .next {
+    display: none;
+  }
+
+  .btn-primary {
+    padding: 15px 32px;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
